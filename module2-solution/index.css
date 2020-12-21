@@ -1,0 +1,76 @@
+h1{
+    text-align: center;
+}
+body{
+    font-style:italic
+}
+@media (max-width: 767px){
+    .parag {
+        border: 1px solid black;
+        margin: 10px 1% 10px 1%;
+        background-color: lightblue;
+        width: 98%;
+        float: left;
+        padding-top: 0%
+    }
+}
+@media (min-width: 768px) and (max-width: 991px){
+    .parag {
+        border: 1px solid black;
+        margin: 10px 1% 10px 1%;
+        background-color: lightblue;
+        clear: right;
+        float: left;
+        padding-top: 0%
+    }
+    .col-1{
+        width: 98%;
+    }
+    .col-2{
+        width: 48%
+    }
+}
+@media (min-width: 992px){
+    .parag {
+        border: 1px solid black;
+        margin: 10px 1% 10px 1%;
+        background-color: lightblue;
+        width: 31%;
+        float: left;
+        clear: right;
+        padding-top: 0%
+    }
+}
+.parag{
+    box-sizing: border-box
+}
+
+.par_text{
+    color:aliceblue;
+    padding: 10px 10px 10px 10px;
+    font-size: 1.5em;
+    clear: right;
+    text-align:justify;
+    font-family:georgia,garamond,serif
+}
+.titles{
+    width: 100px;
+    text-align: center;
+    position: relative;
+    top: 0px;
+    float: right;
+    border: 1px solid black;
+    margin-top: 0px
+}
+#t1 {
+    color: red;
+    background-color: lightgrey;
+}
+#t2 {
+    color: Green;
+    background-color: orange;
+}
+#t3 {
+    color: orange;
+    background-color: grey;
+}
